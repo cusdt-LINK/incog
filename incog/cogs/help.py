@@ -13,137 +13,137 @@ class Help(commands.Cog, name="help"):
     async def help(self, context):
         # Note that commands made only for the owner of the bot are not listed here.
         embed = discord.Embed(
-            title="incog",
-            description="Commands & Usage:",
+            title="**incog**",
+            description="**Commands & Usage:**",
             color=0x00FF00
         )
         embed.add_field(
-            name="Price",
+            name="**Price**",
             value=f"Usage: {config.BOT_PREFIX}price <prv> <base_currency>",
             inline=False
         )
         embed.add_field(
-            name="Explorer",
+            name="**Explorer**",
             value=f"Usage: {config.BOT_PREFIX}explorer",
             inline=False
         )
         embed.add_field(
-            name="Privacy Quest",
+            name="**Privacy Quest**",
             value=f"Usage: {config.BOT_PREFIX}quest",
             inline=False
         )
         embed.add_field(
-            name="Github",
+            name="**Github**",
             value=f"Usage: {config.BOT_PREFIX}github",
             inline=False
         )
         embed.add_field(
-            name="Exchange",
+            name="**Exchange**",
             value=f"Usage: {config.BOT_PREFIX}exchange",
             inline=False
         )
         embed.add_field(
-            name="pTokens",
+            name="**pTokens**",
             value=f"Usage: {config.BOT_PREFIX}ptoken",
             inline=False
         )
         embed.add_field(
-            name="Invest, Earn anonymously",
+            name="**Invest, Earn anonymously**",
             value=f"Usage: {config.BOT_PREFIX}provide",
             inline=False
         )
         embed.add_field(
-            name="privacy focused fiat on/off ramp",
+            name="**privacy focused fiat on/off ramp**",
             value=f"Usage: {config.BOT_PREFIX}fiat",
             inline=False
         )
         embed.add_field(
-            name="Staking",
+            name="**Staking**",
             value=f"Usage: {config.BOT_PREFIX}staking",
             inline=False
         )
         embed.add_field(
-            name="pNode",
+            name="**pNode**",
             value=f"Usage: {config.BOT_PREFIX}node",
             inline=False
         )
         embed.add_field(
-            name="Whitepaper",
+            name="**Whitepaper**",
             value=f"Usage: {config.BOT_PREFIX}whitepaper",
             inline=False
         )
         embed.add_field(
-            name="Validators",
+            name="**Validators**",
             value=f"Usage: {config.BOT_PREFIX}validators",
             inline=False
         )
         embed.add_field(
-            name="Roadmap",
+            name="**Roadmap**",
             value=f"Usage: {config.BOT_PREFIX}roadmap",
             inline=False
         )
         embed.add_field(
-            name="Website",
+            name="**Website**",
             value=f"Usage: {config.BOT_PREFIX}website",
             inline=False
         )
         embed.add_field(
-            name="Community",
+            name="**Community**",
             value=f"Usage: {config.BOT_PREFIX}community",
             inline=False
         )
         embed.add_field(
-            name="Monetary Policy",
+            name="**Monetary Policy**",
             value=f"Usage: {config.BOT_PREFIX}mp",
             inline=False
         )
         embed.add_field(
-            name="Server",
+            name="**Server**",
             value=f"Usage: {config.BOT_PREFIX}server",
             inline=False
         )
         embed.add_field(
-            name="Invite",
+            name="**Invite**",
             value=f"Usage: {config.BOT_PREFIX}invite",
             inline=False
         )
         embed.add_field(
-            name="Info",
+            name="**Info**",
             value=f"Usage: {config.BOT_PREFIX}info",
             inline=False
         )
         embed.add_field(
-            name="Stake **(DM ONLY)**",
+            name="**Stake (DM ONLY)**",
             value=f"Usage: {config.BOT_PREFIX}stake <Priv Key> <Address> <Validator Key> <Reward Address>",
             inline=False
         )
         embed.add_field(
-            name="Transaction Explorer",
+            name="**Transaction Explorer**",
             value=f"Usage: {config.BOT_PREFIX}gettx <txn hash/id>",
             inline=False
         )
         embed.add_field(
-            name="DEX Aggregator",
+            name="**DEX Aggregator**",
             value=f"Usage: {config.BOT_PREFIX}buy or {config.BOT_PREFIX}sell <base currency> <quote currency>",
             inline=False
         )
         embed.add_field(
-            name="pDex Live Net Stats",
+            name="**pDex Live Net Stats**",
             value=f"Usage: {config.BOT_PREFIX}pdex",
             inline=False
         )
         embed.add_field(
-            name="Live Blockchain Stats",
+            name="**Live Blockchain Stats**",
             value=f"Usage: {config.BOT_PREFIX}blockchain",
             inline=False
         )
         embed.add_field(
-            name="Updated Marketcap",
+            name="**Updated Marketcap**",
             value=f"Usage: {config.BOT_PREFIX}marketcap",
             inline=False
         )
         embed.add_field(
-            name="Help",
+            name="**Help**",
             value=f"Usage: {config.BOT_PREFIX}help",
             inline=False
         )
